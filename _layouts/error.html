@@ -17,7 +17,10 @@
           <h1><strong>{{ page.title }}</strong></h1>
 
           {{ page.content | markdownify }}
-
+          <script language=javascript>
+          id=Math.round(Math.random()*5)
+          document.write("<h5 id=\"+or-find-a-secret-shh\">or… find a <a href=\"img/treat/t"+id+".jpg\" target=\"_blank\">secret</a>! shh…</h5>")
+          </script>
           <img class="img-responsive center-block fourofour" src="{{site.baseurl}}{{ site.err-404-img }}" alt="">
 
         </div>

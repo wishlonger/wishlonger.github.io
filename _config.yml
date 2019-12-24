@@ -133,7 +133,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/antfin.png"
     date: "July 2019 - Present"
-    description: "[Ant Financial](https://www.antfin.com/index.htm)： Blockchain Development Expert"
+    description: "[Ant Financial](https://www.antfin.com/index.htm)： Blockchain Security Expert"
   - image: "/img/timeline/microsoft.jpg"
     date: "May 2016 - Aug 2016"
     description: "[Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/software-analytics/)： Research Intern <br /> at Software Analytics Group"

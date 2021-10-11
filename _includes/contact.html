@@ -27,6 +27,12 @@
           <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         {% endif %}
       {% endif %}
+
+      {% if site.pgp %}
+        <a href="{{ site.pgp }}" target="_blank">PGP Key</a>
+        <p/>
+      {% endif %}
+
     </div>
   </div>
 </section>

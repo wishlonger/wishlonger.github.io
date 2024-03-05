@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://meng-wu.github.io"
+url: "https://wishlonger.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -32,7 +32,7 @@ lang: "en"
 author: "Meng Wu"
 title: "Meng Wu"
 description: "Homepage of Meng Wu."
-keywords: "meng wu, vt, usc, chao wang"
+keywords: "meng wu, vt, usc, chao wang, zan, zan.top, ant group"
 favicon: "/img/meng.jpg"
 
 ################
@@ -57,6 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "I cannot choose the best, the best chooses me."
+  - text: "In Decentralization We Trust."
 
 me-img: "/img/touxiang.jpg"
 
@@ -131,9 +132,12 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/antfin.png"
+  - image: "/img/timeline/zan.png"
+    date: "June 2023 - Present"
+    description: "[ZAN](https://zan.top)： Chief Security Officer"
+  - image: "/img/timeline/ant.png"
     date: "July 2019 - Present"
-    description: "[Ant Financial](https://www.antfin.com/index.htm)： Blockchain Security Expert"
+    description: "[Ant Group](https://www.antgroup.com)： Blockchain Security Expert"
   - image: "/img/timeline/microsoft.jpg"
     date: "May 2016 - Aug 2016"
     description: "[Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/software-analytics/)： Research Intern <br /> at Software Analytics Group"
@@ -143,9 +147,9 @@ events:
   - image: "/img/timeline/envision.png"
     date: "Sep 2012 - Jun 2014"
     description: "[Envision Energy](http://www.envision-group.com)： Firmware Engineer for Wind Turbine Converter"
-  - image: "/img/timeline/sjtu.png"
-    date: "Jul 2011 - May 2012"
-    description: "[Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)： Teaching Assistant for Laboratory Experiment of Motor Control"
+  # - image: "/img/timeline/sjtu.png"
+  #   date: "Jul 2011 - May 2012"
+  #   description: "[Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)： Teaching Assistant for Laboratory Experiment of Motor Control"
 
 # First image of the Timeline
 
@@ -172,13 +176,13 @@ author_blurb_image: "/img/author.png"
 # Social Buttons #
 ##################
 
-# social:
+social:
   # - title: "facebook"
     # url: "https://facebook.com/"
-  # - title: "twitter"
-    # url: "https://twitter.com/"
-  # - title: "github"
-    # url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+  - icon: "x-twitter"
+    url: "https://twitter.com/wishlonger"
+  - icon: "github"
+    url: "https://github.com/wishlonger"
   # - title: "bitcoin"
     # url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   # - title: "rss"

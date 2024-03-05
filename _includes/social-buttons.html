@@ -2,11 +2,20 @@
 
 <ul class="list-inline social-buttons">
     {% for network in site.social %}
-    <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
+      {% if network.icon== "rss" %}
+        <li>
+        <a href="{{ network.url }}" target="_blank">
+        <i class="fa-solid fa-{{network.icon}}"></i>
+        </a>
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ network.url }}" target="_blank">
+            <i class="fa-brands fa-{{ network.icon}}"></i>
+          </a>
+        </li>
+      {% endif %}
     {% endfor %}
-    {% if site.keybase-in-social %}
-    <li><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i class="fa fa-key fa-fw"></i></a></li>
-    {% endif %}
-</ul>
-
-<!-- Social Buttons End -->
+  </ul>
+  
+  <!-- Social Buttons End -->
